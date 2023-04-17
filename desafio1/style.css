@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.container {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box-text-main {
+    margin-top: 4.3rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.body-texto  {
+    margin-top: 5rem
+}
+
+.body-texto > p {
+    padding: 0rem 4rem;
+    font-weight: normal;
+    font-size: 1.3rem;
+    padding-bottom: 20px;
+}
+
+.localidade {
+    text-align: end;
+    font-weight: normal;
+    font-size: 1.2rem;
+    padding-right: 20px;
+}
+
+.campo-assinatura {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.box-assinatura input {
+    border: none;
+    outline: none;
+    width: 300px;
+    border-bottom: 2px solid #000;
+}
+
+.texto-secretaria {
+    margin-top: 1.6rem;
+    font-size: 18px;
+}
